@@ -7,3 +7,5 @@ RUN chmod +x /usr/local/bin/drush
 
 USER www-data
 RUN yes | drush init
+
+USER root
